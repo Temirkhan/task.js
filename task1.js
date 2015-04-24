@@ -1,7 +1,9 @@
-var i = []
+var msv = [3,6,9,5,12,15];
+var i;
 var s=0
-	for(var i=0;i<10;i++) {
- s=s+i
-        console.log(i)
-    }
-console.log('summa=',s)
+	for(i=0;i<6;i++)
+     {
+ s=s+msv[i];
+     }
+console.log(msv);
+console.log('summa=',s);
