@@ -1,8 +1,6 @@
-var i = []
-var s=0
-	for(var i=1;i<=10;i++) {
-        
-  s=s+i
-     console.log(i,[i-(i+1)])
-    }
-  
+var m = [3, 12, 9, 5, 12,22];
+var i;
+	for (i=0; i < m.length; i++)
+     {
+         console.log(m[i],[m[i]-m[i+1]]);
+     }
