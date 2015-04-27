@@ -5,12 +5,14 @@ read({ prompt : 'vvedite x: ' }, function (err, x) {
 var a = Number (x);
 var b = Number (y);
    
-
-   
-      console.log('x=',x);
-      console.log('y=',y);
+      console.log('x =', x);
+      console.log('y =', y);
     process.stdin.destroy();
-      console.log('summa=',a+b);
+      console.log('summa=', a+b);
+      console.log('vychitanie=', a-b);
+      console.log('otnoshenie=', a/b);
+      console.log('proizvedenie=', a*b);
+      
   });
     
 })
