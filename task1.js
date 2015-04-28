@@ -1,4 +1,3 @@
-console.log(m);
 var msv = [3,6,9,5,12,15];
 var i;
 var s=0
